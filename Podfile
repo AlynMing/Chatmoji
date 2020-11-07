@@ -12,6 +12,7 @@ target 'Chatmoji' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'SDWebImage'
+  pod 'GoogleSignIn'
 
   target 'ChatmojiTests' do
     inherit! :search_paths

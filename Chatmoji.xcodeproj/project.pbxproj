@@ -11,13 +11,13 @@
 		96A4A99439079710BFC72FB1 /* Pods_Chatmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF52E15EE7720486B785C6DA /* Pods_Chatmoji.framework */; };
 		A737E082F10676E69A8CF13A /* Pods_ChatmojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDF95C63CB902CD3C89ABB3 /* Pods_ChatmojiTests.framework */; };
 		B3310EA32555FD51009A2D82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3310EA22555FD51009A2D82 /* README.md */; };
+		B3310EAE25564815009A2D82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3310EAD25564815009A2D82 /* LoginViewController.swift */; };
+		B3310EB025564835009A2D82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3310EAF25564835009A2D82 /* HomeViewController.swift */; };
 		B37C34F22555F867008C6594 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B37C34F12555F867008C6594 /* GoogleService-Info.plist */; };
 		B3A24D142550A24800F93AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A24D132550A24800F93AB2 /* AppDelegate.swift */; };
 		B3A24D162550A24800F93AB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A24D152550A24800F93AB2 /* SceneDelegate.swift */; };
-		B3A24D182550A24800F93AB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A24D172550A24800F93AB2 /* ViewController.swift */; };
 		B3A24D1B2550A24800F93AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A24D192550A24800F93AB2 /* Main.storyboard */; };
 		B3A24D1D2550A24A00F93AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A24D1C2550A24A00F93AB2 /* Assets.xcassets */; };
-		B3A24D202550A24A00F93AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A24D1E2550A24A00F93AB2 /* LaunchScreen.storyboard */; };
 		B3A24D2B2550A24A00F93AB2 /* ChatmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A24D2A2550A24A00F93AB2 /* ChatmojiTests.swift */; };
 		B3A24D362550A24A00F93AB2 /* ChatmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A24D352550A24A00F93AB2 /* ChatmojiUITests.swift */; };
 /* End PBXBuildFile section */
@@ -45,14 +45,14 @@
 		6DE0A62E339E3332D78FAE16 /* Pods-Chatmoji-ChatmojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatmoji-ChatmojiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chatmoji-ChatmojiUITests/Pods-Chatmoji-ChatmojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC7C1E4A86DEDF2CD1DE773 /* Pods-Chatmoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatmoji.debug.xcconfig"; path = "Target Support Files/Pods-Chatmoji/Pods-Chatmoji.debug.xcconfig"; sourceTree = "<group>"; };
 		B3310EA22555FD51009A2D82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B3310EAD25564815009A2D82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3310EAF25564835009A2D82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B37C34F12555F867008C6594 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3A24D102550A24800F93AB2 /* Chatmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A24D132550A24800F93AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3A24D152550A24800F93AB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3A24D172550A24800F93AB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3A24D1A2550A24800F93AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3A24D1C2550A24A00F93AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3A24D1F2550A24A00F93AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3A24D212550A24A00F93AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A24D262550A24A00F93AB2 /* ChatmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A24D2A2550A24A00F93AB2 /* ChatmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatmojiTests.swift; sourceTree = "<group>"; };
@@ -105,6 +105,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B3310EAC25564442009A2D82 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3310EAD25564815009A2D82 /* LoginViewController.swift */,
+				B3310EAF25564835009A2D82 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		B3A24D072550A24800F93AB2 = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +140,11 @@
 		B3A24D122550A24800F93AB2 /* Chatmoji */ = {
 			isa = PBXGroup;
 			children = (
+				B3310EAC25564442009A2D82 /* View Controllers */,
 				B3A24D132550A24800F93AB2 /* AppDelegate.swift */,
 				B3A24D152550A24800F93AB2 /* SceneDelegate.swift */,
-				B3A24D172550A24800F93AB2 /* ViewController.swift */,
 				B3A24D192550A24800F93AB2 /* Main.storyboard */,
 				B3A24D1C2550A24A00F93AB2 /* Assets.xcassets */,
-				B3A24D1E2550A24A00F93AB2 /* LaunchScreen.storyboard */,
 				B3A24D212550A24A00F93AB2 /* Info.plist */,
 				B37C34F12555F867008C6594 /* GoogleService-Info.plist */,
 			);
@@ -186,6 +194,7 @@
 				B3A24D0D2550A24800F93AB2 /* Frameworks */,
 				B3A24D0E2550A24800F93AB2 /* Resources */,
 				8064EFE03FB67DE1E7E622BB /* [CP] Embed Pods Frameworks */,
+				2EBE53CF47BE10E926E3F95D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +233,7 @@
 				B3A24D2E2550A24A00F93AB2 /* Frameworks */,
 				B3A24D2F2550A24A00F93AB2 /* Resources */,
 				9D2EEF5F15BBCC97917E8CFC /* [CP] Embed Pods Frameworks */,
+				3C894D2965DC85EE6B2356DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +293,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A24D202550A24A00F93AB2 /* LaunchScreen.storyboard in Resources */,
 				B37C34F22555F867008C6594 /* GoogleService-Info.plist in Resources */,
 				B3310EA32555FD51009A2D82 /* README.md in Resources */,
 				B3A24D1D2550A24A00F93AB2 /* Assets.xcassets in Resources */,
@@ -308,6 +317,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2EBE53CF47BE10E926E3F95D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatmoji/Pods-Chatmoji-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatmoji/Pods-Chatmoji-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatmoji/Pods-Chatmoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C894D2965DC85EE6B2356DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatmoji-ChatmojiUITests/Pods-Chatmoji-ChatmojiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatmoji-ChatmojiUITests/Pods-Chatmoji-ChatmojiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatmoji-ChatmojiUITests/Pods-Chatmoji-ChatmojiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8064EFE03FB67DE1E7E622BB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,9 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A24D182550A24800F93AB2 /* ViewController.swift in Sources */,
+				B3310EAE25564815009A2D82 /* LoginViewController.swift in Sources */,
 				B3A24D142550A24800F93AB2 /* AppDelegate.swift in Sources */,
 				B3A24D162550A24800F93AB2 /* SceneDelegate.swift in Sources */,
+				B3310EB025564835009A2D82 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,14 +503,6 @@
 				B3A24D1A2550A24800F93AB2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3A24D1E2550A24A00F93AB2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3A24D1F2550A24A00F93AB2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
