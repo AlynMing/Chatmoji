@@ -26,8 +26,12 @@ class LoginViewController: UIViewController, GIDSignInDelegate {
                 print(error.localizedDescription)
             } else {
                 print("Login Successful")
+                /*
                 let profileView = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
-                self.present(profileView, animated: true, completion: nil)
+                self.present(profileView, animated: true, completion: nil) */
+                
+                let homeView = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+                self.present(homeView, animated: true, completion: nil)
                 
 
                 

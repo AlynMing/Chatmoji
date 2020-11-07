@@ -7,9 +7,43 @@
 //
 
 import UIKit
+import ARKit
+import AVKit
 
-class HomeViewController: UIViewController {
-
+class HomeViewController: UIViewController, ARSessionDelegate {
+    
+    let session = ARSession()
+    var runSession = true
+    var currentExpression = "Neutral"
+    
+    // Setting up ARSession
+    var currentFaceAnchor : ARFaceAnchor?
+    var currentFrame: ARFrame?
+    
+    func session(_ session: ARSession, didUpdate frame: ARFrame) {
+        self.currentFrame = frame
+        if (runSession) {
+            self.processNewFrame()
+            runSession = false
+        }
+    }
+    
+    func processNewFrame() {
+        print("This is where each frame is processed")
+    }
+    
+    @IBAction func testButtonPressed(_ sender: Any) {
+        runSession = true
+        let config = ARFaceTrackingConfiguration()
+        config.worldAlignment = .gravity
+        session.delegate = self
+        if (runSession) {
+            session.run(config, options: []);
+        } else {
+            session.pause();
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -36,14 +36,28 @@
             </objects>
             <point key="canvasLocation" x="830" y="139"/>
         </scene>
-        <!--Home View Controller-->
+        <!--HomeViewController-->
         <scene sceneID="PHN-Sv-VVd">
             <objects>
-                <viewController id="Rjc-Mm-0tU" customClass="HomeViewController" customModule="Chatmoji" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" title="HomeViewController" id="Rjc-Mm-0tU" customClass="HomeViewController" customModule="Chatmoji" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BSp-Ze-lyg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQy-Wq-U4c">
+                                <rect key="frame" x="153" y="414.5" width="108" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <state key="normal" title="TEST"/>
+                                <connections>
+                                    <action selector="testButtonPressed:" destination="Rjc-Mm-0tU" eventType="touchUpInside" id="2jA-Uc-I6y"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vQy-Wq-U4c" firstAttribute="centerY" secondItem="BSp-Ze-lyg" secondAttribute="centerY" id="OPs-Yq-IaI"/>
+                            <constraint firstItem="vQy-Wq-U4c" firstAttribute="centerX" secondItem="BSp-Ze-lyg" secondAttribute="centerX" id="Qva-Lx-mD6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="btM-CK-MvQ"/>
                     </view>
                 </viewController>
