@@ -72,28 +72,7 @@ A clean, simple approach to messaging with a unique feature: you can send emojis
 ## Schema 
 ### Models
 #### Conversation
-<table style="width:100%">
-  <tr>
-    <th>Property</th>
-    <th>Type</th> 
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>objectId</td>
-    <td>String</td>
-    <td>unique id of each user in conversation</td>
-  </tr>
-  <tr>
-    <td>recentMessage</td>
-    <td>String</td>
-    <td>String</td>
-  </tr>
-  <tr>
-    <td>participants</td>
-    <td>String</td>
-    <td>users involved in a conversation</td>
-  </tr>
-</table>
+
 
 ### Networking
 <ul>
